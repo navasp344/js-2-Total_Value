@@ -1,0 +1,16 @@
+<html>
+  <script>
+    var order = {
+      orderNumber: 5151514,
+      customerName: "Navas",
+      customerMobile: 9876543210,
+      subTotal: 154825,
+      taxAmount: 4445,
+      totalValue: function () {
+        total=this.subTotal+this.taxAmount,
+       document.write("Totalvalue:",total);
+      }
+    };
+    order.totalValue();
+  </script>
+</html>
